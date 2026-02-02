@@ -1,4 +1,50 @@
-# React + TypeScript + Vite
+# Ego's Abyss
+
+Website oficial do projeto **Ego's Abyss** - Um jogo de terror psicológico cooperativo assimétrico.
+
+## 🚀 Deploy no GitHub Pages
+
+Este projeto está configurado para deploy automático no GitHub Pages.
+
+### Configuração Inicial (Apenas uma vez)
+
+1. No repositório do GitHub, vá em **Settings** → **Pages**
+2. Em **Source**, selecione **GitHub Actions**
+3. Pronto! O deploy será automático a cada push na branch `main`
+
+### Deploy Automático
+
+O projeto usa GitHub Actions para deploy automático. Sempre que você fizer push para a branch `main`, o site será automaticamente:
+1. Compilado
+2. Testado
+3. Publicado no GitHub Pages
+
+### Desenvolvimento Local
+
+```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
+npm run dev
+
+# Build de produção
+npm run build
+
+# Preview do build
+npm run preview
+```
+
+### Tecnologias
+
+- React + TypeScript + Vite
+- Tailwind CSS
+- Radix UI
+- Lucide Icons
+
+---
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
